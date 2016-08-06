@@ -1,5 +1,7 @@
 # SharedMediaManager
-
+### Build Status
+[![Build Status](https://travis-ci.org/SharedMediaManagerGroup/SharedMediaManager.svg?branch=master)](https://travis-ci.org/SharedMediaManagerGroup/SharedMediaManager) 
+[![Build Status](https://travis-ci.org/SharedMediaManagerGroup/SharedMediaManager.svg?branch=dev)](https://travis-ci.org/SharedMediaManagerGroup/SharedMediaManager)
 ### Branch Management
 #### Naming
 - dev: current version branch
