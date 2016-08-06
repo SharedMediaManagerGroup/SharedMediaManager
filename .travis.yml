@@ -9,4 +9,4 @@ install:
   - sudo apt-get install nunit-console
   - nuget restore SharedMediaManager.sln
 script:
-  - xbuild SharedMediaManager.sln
+  - xbuild ./Application/Application.csproj
