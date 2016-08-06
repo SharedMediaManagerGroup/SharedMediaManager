@@ -32,6 +32,8 @@ if (x == y) {
 }
 ```
 
+Also we use a tab size of 2 spaces. All of this can be configured in Visual Studio.
+
 ### Versioning
 We use the standart [.net](https://msdn.microsoft.com/en-us/library/system.version(v=vs.110).aspx) versioning system. 
 
