@@ -1,4 +1,8 @@
 # SharedMediaManager
+### Pariticipants
+- Project Owner: @codemaster3000
+- Project Manager: @Norskan
+- Developer: @codemaster, @fla91, @Norskan
 ### Build Status
 [![Build Status](https://travis-ci.org/SharedMediaManagerGroup/SharedMediaManager.svg?branch=master)](https://travis-ci.org/SharedMediaManagerGroup/SharedMediaManager) master 
 
