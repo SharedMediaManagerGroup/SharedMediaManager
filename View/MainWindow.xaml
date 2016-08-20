@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SharedMediaManager"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="SMM Test" Height="628.833" Width="1088.5">
+    <DockPanel LastChildFill="True">
+        <ToolBar x:Name="toolBar" Height="54" VerticalAlignment="Top" DockPanel.Dock="Top">
+            <Button x:Name="button" Content="Show&#xD;&#xA;XRel Release" Height="49" VerticalAlignment="Top" Width="105" Click="button_Click"/>
+            <Button x:Name="button1" Content="SQLite Test" Height="49" VerticalAlignment="Top" Width="109" Click="button1_Click"/>
+            <Button x:Name="button2" Content="Logging Test" Height="49" VerticalAlignment="Top" Width="75" Click="button2_Click"/>
+        </ToolBar>
+        <DataGrid x:Name="dataGrid" Width="391" HorizontalAlignment="Left" HeadersVisibility="Column" VerticalGridLinesBrush="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" HorizontalGridLinesBrush="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" IsReadOnly="True" SelectionMode="Single" AutoGenerateColumns="False" SelectionChanged="dataGrid_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="FileName" Binding="{Binding fileName}" />
+                <DataGridTextColumn Header="FileType" Binding="{Binding fileType}" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBox x:Name="textBox" TextWrapping="Wrap" Text="(nothing selected)" IsReadOnlyCaretVisible="True" FontFamily="Consolas" VerticalScrollBarVisibility="Auto"/>
+    </DockPanel>
 </Window>
