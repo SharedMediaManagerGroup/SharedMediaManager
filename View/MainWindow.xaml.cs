@@ -32,7 +32,12 @@ namespace SharedMediaManager {
 
         public void Test() {
             // file directory scanner example
-            List<string> filesList = scan.ScanDirectories(@"D:\DOWNLOADS\_filmefertig");
+            string testDir = @"D:\DOWNLOADS\_filmefertig";
+            List<string> filesList = new List<string>();
+
+            if (Directory.Exists(testDir)) {
+                filesList = scan.ScanDirectories(testDir);
+            }
 
             dataGrid.Items.Clear();
             dataGrid.ItemsSource = CreateFileDataList(filesList);
