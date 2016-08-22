@@ -45,3 +45,5 @@ Also we use a tab size of 2 spaces. All of this can be configured in Visual Stud
 ### Versioning
 We use the standart [.net](https://msdn.microsoft.com/en-us/library/system.version(v=vs.110).aspx) versioning system. 
 
+## Stats
+[![Throughput Graph] (https://graphs.waffle.io/SharedMediaManagerGroup/SharedMediaManager/throughput.svg)](https://graphs.waffle.io/SharedMediaManagerGroup/SharedMediaManager/metrics/throughput)
