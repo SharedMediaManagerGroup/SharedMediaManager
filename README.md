@@ -8,6 +8,11 @@
 [![Build Status](https://travis-ci.org/SharedMediaManagerGroup/SharedMediaManager.svg?branch=master)](https://travis-ci.org/SharedMediaManagerGroup/SharedMediaManager) master 
 
 [![Build Status](https://travis-ci.org/SharedMediaManagerGroup/SharedMediaManager.svg?branch=dev)](https://travis-ci.org/SharedMediaManagerGroup/SharedMediaManager) dev
+
+[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/SharedMediaManagerGroup/SharedMediaManager.svg)](http://isitmaintained.com/project/SharedMediaManagerGroup/SharedMediaManager "Average time to resolve an issue")
+
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/SharedMediaManagerGroup/SharedMediaManager.svg)](http://isitmaintained.com/project/SharedMediaManagerGroup/SharedMediaManager "Percentage of issues still open")
+
 ### Branch Management
 #### Naming
 - dev: current version branch
