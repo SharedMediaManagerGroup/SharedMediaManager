@@ -13,6 +13,8 @@
 
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/SharedMediaManagerGroup/SharedMediaManager.svg)](http://isitmaintained.com/project/SharedMediaManagerGroup/SharedMediaManager "Percentage of issues still open")
 
+[![Stories in Progress](https://badge.waffle.io/SharedMediaManagerGroup/SharedMediaManager.svg?label=in progress&title=In Progress)](http://waffle.io/SharedMediaManagerGroup/SharedMediaManager)
+
 ### Branch Management
 #### Naming
 - dev: current version branch
