@@ -1,0 +1,12 @@
+
+language: csharp
+solution: SharedMediaManager.sln
+
+mono:
+  - latest
+
+install:
+  - sudo apt-get install nunit-console
+  - nuget restore SharedMediaManager.sln
+script:
+  - xbuild ./Application/Application.csproj
